@@ -1,1 +1,20 @@
 /* this is for you to complete */
+.list{
+
+    color: blue;
+}
+#marks{
+    list-style-type: none;
+
+}
+li:first-child { 
+  font-weight: bold;
+}
+ .link{
+    color:red
+}
+    .green{ 
+        color:green
+    }
+.purple { color:purple;
+background:yellow}

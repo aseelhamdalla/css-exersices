@@ -1,22 +1,39 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Exercise #2b: Positioning</title>
     <style>
         #outer {
+            width: 900px;
+            height: 900px;
             background: #44accf;
+            margin:10px;
+
             /* add CSS here */
+            position: absolute;
+
+
         }
 
         #inner {
-            background: #ff9c34;
-            /* and here */
+            background: orange;
+            width: 800px;
+            height: 800px;
+            margin:40px;
+            position: absolute;
+            
+
         }
+
+        /* and here */
     </style>
 </head>
+
 <body>
-<div id="outer">
-    <div id="inner"></div>
-</div>
+    <div id="outer">
+        <div id="inner"></div>
+    </div>
 </body>
+
 </html>

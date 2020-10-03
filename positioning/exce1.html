@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.demo {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px ;
+
+
+} 
+.demo>li:nth-child(odd) {
+    visibility: hidden;
+}
+
+li:not(:first-child):not(:nth-child(2n+4)):not(:nth-child(3n+9)) {
+    display: none;
+}
+
+.demo{
+    display: flex;
+    padding-left: 0;
+}
+
+li{
+    border: 1px solid olivedrab;
+    padding: 5px 20px;
+    background: orange;
+}
+
+</style> 
+<body>
+  <div >
+    <ul class="demo" >
+
+
+        <li id="1">1</li>
+        <li id="2">2 </li>
+        <li id="3">3</li>
+        <li id="4">4</li>
+        <li id="5">5</li>
+        <li id="6">6 </li>
+        <li id="7">7</li>
+        <li id="8">8</li>
+        <li id="9">9</li>
+        <li id="10">10</li>
+
+
+    </ul> </div>
+</body>
+
+</html>
